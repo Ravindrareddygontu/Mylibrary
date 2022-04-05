@@ -1,0 +1,12 @@
+<form class="form" method="post" action="">
+    {% csrf_token %}
+        <label>Username</label><br>
+        <input name="username" type="text" placeholder="e.g. dennis_ivy"/>
+    <br>
+        <label>Password</label><br>
+        <input name="password" type="password"/><br><br>
+    <input type="submit" value="Login">
+    <hr>
+    <h4>Aren't u sign up</h4>
+</form>
+<a href="register">Signup or Register</a>
